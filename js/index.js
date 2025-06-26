@@ -89,6 +89,7 @@ function Login() {
     } else {
         Swal.fire("⚠️ Error", "Email or password is incorrect", "warning");
     }
+    clear()
 }
 
 
